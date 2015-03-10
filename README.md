@@ -1,4 +1,4 @@
-_s
+ObSub Boilerplate
 ===
 
 The Objective Subject Boilerplate. Adapted from the "_s" theme: http://underscores.me
