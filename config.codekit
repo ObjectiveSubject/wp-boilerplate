@@ -11,15 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/admin\/color-scheme\/_mixins.scss": {
+	"\/admin\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/admin\/color-scheme\/_mixins.scss",
-		"outputAbbreviatedPath": "\/admin\/css\/_mixins.css",
+		"inputAbbreviatedPath": "\/admin\/_mixins.scss",
+		"outputAbbreviatedPath": "\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -27,15 +27,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/admin\/color-scheme\/_variables.scss": {
+	"\/admin\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/admin\/color-scheme\/_variables.scss",
-		"outputAbbreviatedPath": "\/admin\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/admin\/_variables.scss",
+		"outputAbbreviatedPath": "\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -101,6 +101,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/admin\/login\/admin-login.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/admin\/login\/admin-login.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/admin\/login\/admin-login.scss": {
 		"createSourceMap": 0,
@@ -253,13 +262,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/logo.png": {
+	"\/images\/login-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1609,
-		"inputAbbreviatedPath": "\/images\/logo.png",
-		"outputAbbreviatedPath": "\/images\/logo.png",
+		"initialSize": 1934,
+		"inputAbbreviatedPath": "\/images\/login-logo.png",
+		"outputAbbreviatedPath": "\/images\/login-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
