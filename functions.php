@@ -121,7 +121,7 @@ add_action( 'admin_enqueue_scripts', 'load_dashboard_style' );
 
 /** Custom Admin Color Scheme.
 -------------------------------------------------- */
-require get_template_directory() . '/admin/color-scheme/obsub-admin-color-scheme.php';
+require get_template_directory() . '/admin/color-scheme/admin-color-scheme.php';
 
 /** Set custom color scheme as default. ---------- */
 function set_default_admin_color($user_id) {

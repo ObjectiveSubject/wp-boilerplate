@@ -15,6 +15,8 @@ If you want to change the theme's namespace, you'll need to find and replace the
 6. Search for `ObSub Boilerplate` to change theme name.
 7. Search for `Theme URI: https://github.com/ObjectiveSubject/wp-boilerplate` to change theme URI.
 8. Search for `Description: A boilerplate wordpress theme` to change the description.
+9. Search for `”displayValue”: “obsess”` to capture codekit settings.
+10. Search for `”externalServerAddress”: “http:\/\/localhost\/obsub”` to capture (more) codekit settings.
 
 Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
 
