@@ -117,8 +117,8 @@ ornare consectetur massa velit vel tellus.</pre>
 
 		<hr/>
 
-		<h3>Table with <code>.table</code> class</h3>
-		<table class="table">
+		<h3>Table with <code>.table.table-bordered</code> classes</h3>
+		<table class="table table-bordered">
 			<tr>
 				<th>Table Heading 1</th>
 				<th>Table Heading 2</th>

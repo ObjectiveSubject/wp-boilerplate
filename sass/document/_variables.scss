@@ -20,18 +20,18 @@ $color_text_heading: #202020;
 $color_text_input: #666;
 $color_text_input_focus: #111;
 
-$color_link: royalblue;
-$color_link_visited: purple;
-$color_link_hover: midnightblue;
+$color_link: #0071BC;
+$color_link_visited: tint($color_link, 10%);
+$color_link_hover: darken($color_link, 10%);
 
-$color_code: lightseagreen;
+$color_code: #0071BC;
 
 $color_blockquote: #222;
 
 $color_background_body: #fff;
 $color_background_hr: #ccc;
 $color_background_button: #e6e6e6;
-$color_background_pre: #E9EEF7;
+$color_background_pre: #eee;
 
 $color_border_button: #ccc #ccc #bbb;
 $color_border_button_hover: #ccc #bbb #aaa;

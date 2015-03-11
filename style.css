@@ -667,16 +667,16 @@ img {
 --------------------------------------------------------------*/
 /* line 1, sass/document/navigation/_links.scss */
 a {
-  color: royalblue;
+  color: #0071BC;
   text-decoration: none;
   -webkit-transition: all 250ms ease;
           transition: all 250ms ease; }
   /* line 6, sass/document/navigation/_links.scss */
   a:visited {
-    color: purple; }
+    color: #197fc2; }
   /* line 9, sass/document/navigation/_links.scss */
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #005289; }
   /* line 14, sass/document/navigation/_links.scss */
   a:focus {
     outline: thin dotted; }
@@ -797,7 +797,7 @@ address {
 
 /* line 34, sass/document/typography/_copy.scss */
 pre {
-  background: #E9EEF7;
+  background: #eee;
   font-family: "Menlo", monospace;
   font-size: 18px;
   line-height: 1.6;
@@ -811,7 +811,7 @@ code, kbd, tt, var {
   font-family: "Menlo", monospace;
   font-weight: 900;
   font-size: 0.9em;
-  color: lightseagreen; }
+  color: #0071BC; }
 
 /* line 52, sass/document/typography/_copy.scss */
 abbr, acronym {
