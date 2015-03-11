@@ -3,7 +3,6 @@
  * use: @include dashicons( '\f140' );
  */
 /*
-<<<<<<< HEAD
  * Button mixin- creates 3d-ish button effect with correct
  * highlights/shadows, based on a base color.
  */
@@ -84,19 +83,16 @@ input[type=radio]:checked:before {
   background: #0071BC;
   border: 0;
   color: white;
-  -webkit-box-shadow: none;
   box-shadow: none; }
   .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus {
     background: #005893;
     border: 0;
     color: white;
-    -webkit-box-shadow: none;
     box-shadow: none; }
   .wp-core-ui .button-primary:active {
     background: #005893;
     border: 0;
     color: white;
-    -webkit-box-shadow: none;
     box-shadow: none; }
   .wp-core-ui .button-primary[disabled], .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary.button-primary-disabled {
     color: #c7cdd1 !important;
@@ -435,11 +431,6 @@ div#wp-responsive-toggle a:before {
 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
   background: #2f2f2f; }
 
-=======
- * Button mixin- creates 3d-ish button effect with correct 
- * highlights/shadows, based on a base color.
- */
->>>>>>> d77e909738a22151d8c53ceed572379870710fd4
 #login h1 a {
   background-image: url(../../images/login-logo.png);
   width: 100%;
@@ -447,7 +438,6 @@ div#wp-responsive-toggle a:before {
 #login #backtoblog a:hover,
 #login #nav a:hover {
   color: #0071BC; }
-<<<<<<< HEAD
 #login .message {
   border-color: #0071BC; }
 
@@ -469,18 +459,5 @@ input[type=url]:focus,
 input[type=week]:focus,
 select:focus,
 textarea:focus {
-=======
-
-.wp-core-ui .button-primary {
-  background: #0071BC;
-  border: 0;
-  box-shadow: none; }
-  .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:active, .wp-core-ui .button-primary:focus {
-    background: #0062a3;
-    box-shadow: none; }
-
-input[type=text]:focus,
-input[type=password]:focus {
->>>>>>> d77e909738a22151d8c53ceed572379870710fd4
   border-color: #0071BC;
   box-shadow: 0 0 5px -1px #0071BC; }
