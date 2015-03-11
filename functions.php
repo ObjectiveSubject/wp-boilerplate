@@ -134,7 +134,7 @@ function set_default_admin_color($user_id) {
 add_action('user_register', 'set_default_admin_color');
 
 
-/** Custom Admin Login styles.
+/** Custom Admin Login.
 -------------------------------------------------- */
 function load_login_style() {
 	wp_register_style( 'admin_login_style', get_template_directory_uri() . '/admin/login/admin-login.css', false, '1.0.0' );

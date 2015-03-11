@@ -20,7 +20,7 @@ Support for custom admin styles is provided in functions.php under "**Custom Adm
 
 ####Colors
 
-Custom admin **colors** are defined within `admin/color-scheme/admin-colors.scss`. All color related overrides get compiled in this file. By editing the `_variables.scss` file, it's easy to create new color palettes.
+Custom admin **colors** are defined within `admin/color-scheme/admin-colors.scss`. All color related overrides get compiled in this file. By editing the `admin/_variables.scss` file, it's easy to create new color palettes.
 
 ####Login page
 

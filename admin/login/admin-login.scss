@@ -1,5 +1,38 @@
-#login h1 a {
-  background-image: url(../../images/login-logo.png);
-  width: 100%;
-  background-size: auto;
+@import '../variables';
+@import '../mixins';
+
+#login {
+
+  h1 a {
+    background-image: url(../../images/login-logo.png);
+    width: 100%;
+    background-size: auto;
+  }
+
+  #backtoblog a,
+  #nav a {
+    &:hover { color: $link; }
+  }
+}
+
+.wp-core-ui {
+
+  .button-primary {
+    background: $button-color;
+    border: 0;
+    box-shadow: none;
+    &:hover, &:active, &:focus {
+      background: darken($button-color, 5%);
+      box-shadow: none;
+    }
+  }
+
+}
+
+input[type=text],
+input[type=password] {
+  &:focus {
+    border-color: $button-color;
+    box-shadow: 0 0 5px -1px $button-color;
+  }
 }
