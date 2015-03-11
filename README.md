@@ -1,10 +1,10 @@
-ObSub Boilerplate
+#ObSub Boilerplate
 ===
 
-The Objective Subject Boilerplate. Adapted from the "_s" theme: http://underscores.me
+The Objective Subject Boilerplate. Adapted from the "\_s" theme: http://underscores.me
 
-Getting Started
----------------
+##Getting Started
+===
 
 If you want to change the theme's namespace, you'll need to do a five-step find and replace on the name in all the templates.
 
@@ -17,9 +17,9 @@ If you want to change the theme's namespace, you'll need to do a five-step find 
 Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
 
 ###Defining Admin styles
-------------------------
+===
 Support for custom admin styles is provided in functions.php under "Custom Admin Styles" and "Custom Admin Color Scheme". Comment out or delete this code to disable support custom styles in the admin area.
 
-Custom admin _colors_ are defined within admin/color-scheme/admin-colors.scss. All color related overrides get compiled in this file. By editing the _variables.scss file, it's easy to create new color palettes.
+Custom admin *colors* are defined within `admin/color-scheme/admin-colors.scss`. All color related overrides get compiled in this file. By editing the `_variables.scss` file, it's easy to create new color palettes.
 
-All other custom styles should be defined within admin/admin-style.scss.
+All other custom styles should be defined within `admin/admin-style.scss`.
