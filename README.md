@@ -1,6 +1,7 @@
 #ObSub Boilerplate
 
-The Objective Subject Boilerplate. Adapted from the "\_s" theme: http://underscores.me
+Based on the [Objective Subject Boilerplate](https://github.com/ObjectiveSubject/wp-boilerplate).
+Adapted from the “\_s” theme: http://underscores.me
 
 ##Getting Started
 
@@ -11,6 +12,9 @@ If you want to change the theme's namespace, you'll need to do a five-step find 
 3. Search for `Text Domain: obsub` in style.css.
 4. Search for <code>&nbsp;obsub</code> (with a space before it) to capture DocBlocks.
 5. Search for `obsub-` to capture prefixed handles.
+6. Search for `ObSub Boilerplate` to change theme name.
+7. Search for `https://github.com/ObjectiveSubject/wp-boilerplate` to change theme URI.
+8. Search for `Description: A boilerplate wordpress theme` to change the description.
 
 Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
 
