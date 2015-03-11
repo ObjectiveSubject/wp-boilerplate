@@ -107,6 +107,36 @@ function obsub_scripts() {
 add_action( 'wp_enqueue_scripts', 'obsub_scripts' );
 
 
+
+
+
+/** Custom Admin styles.
+-------------------------------------------------- */
+function load_custom_wp_admin_style() {
+        wp_register_style( 'custom_admin_style', get_template_directory_uri() . '/admin/admin-style.css', false, '1.0.0' );
+        wp_enqueue_style( 'custom_admin_style' );
+}
+add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
+
+
+/** Custom Admin Color Scheme.
+-------------------------------------------------- */
+require get_template_directory() . '/admin/color-scheme/obsub-admin-color-scheme.php';
+
+/** Set custom color scheme as default. ---------- */
+function set_default_admin_color($user_id) {
+  $args = array(
+      'ID' => $user_id,
+      'admin_color' => 'obsub'
+  );
+  wp_update_user( $args );
+}
+add_action('user_register', 'set_default_admin_color');
+
+
+
+
+
 /** Custom template tags for this theme.
 --------------------------------------------------*/
 require get_template_directory() . '/functions/template-tags.php';
