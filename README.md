@@ -18,6 +18,14 @@ Then, update the stylesheet header in `style.css` and the links in `footer.php` 
 
 Support for custom admin styles is provided in functions.php under "**Custom Admin Styles**" and "**Custom Admin Color Scheme**". Comment out or delete this code to disable support custom styles in the admin area.
 
+####Colors
+
 Custom admin **colors** are defined within `admin/color-scheme/admin-colors.scss`. All color related overrides get compiled in this file. By editing the `_variables.scss` file, it's easy to create new color palettes.
+
+####Login page
+
+A custom logo can be provided for the login page by simply replacing the `login-logo.png` file in the `images` directory. Further styles for this page should be defined within `admin/login/admin-login.scss`
+
+####Everything else
 
 All other custom styles should be defined within `admin/admin-style.scss`.
