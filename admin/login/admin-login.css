@@ -6,14 +6,6 @@
  * Button mixin- creates 3d-ish button effect with correct
  * highlights/shadows, based on a base color.
  */
-/*
- * Dashicons mixin
- * use: @include dashicons( '\f140' );
- */
-/*
- * Button mixin- creates 3d-ish button effect with correct
- * highlights/shadows, based on a base color.
- */
 html {
   background: #ececec; }
 
