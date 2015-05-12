@@ -37,6 +37,7 @@ function register_brands() {
 			'query_var' => true,
 			'menu_position' => 5,
 			'supports' => array('title','editor','thumbnail'),
+			'menu_icon' => 'dashicons-admin-post',
 			'labels' => $labels
 		)
 	);
