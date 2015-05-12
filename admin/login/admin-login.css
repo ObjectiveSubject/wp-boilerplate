@@ -109,6 +109,10 @@ input[type=radio]:checked:before {
 .wp-core-ui .wp-ui-text-icon {
   color: #FFF; }
 
+/* Content Editor */
+#wp-content-editor-tools {
+  background: #ececec; }
+
 /* List tables */
 .wrap .add-new-h2:hover,
 #add-new-comment a:hover,

@@ -113,6 +113,12 @@ input[type=radio]:checked:before {
 }
 
 
+/* Content Editor */
+#wp-content-editor-tools {
+	background: $body-background;
+}
+
+
 /* List tables */
 
 .wrap .add-new-h2:hover,
