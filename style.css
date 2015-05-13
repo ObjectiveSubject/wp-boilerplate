@@ -861,27 +861,71 @@ big,
 .inline-block {
   display: inline-block; }
 
-/* line 10, sass/document/_helpers.scss */
+@media (min-width: 600px) {
+  /* line 8, sass/document/_helpers.scss */
+  .hide-xs {
+    display: none !important; } }
+
+@media (min-width: 768px) {
+  /* line 13, sass/document/_helpers.scss */
+  .hide-sm {
+    display: none !important; } }
+
+@media (min-width: 960px) {
+  /* line 18, sass/document/_helpers.scss */
+  .hide-md {
+    display: none !important; } }
+
+@media (min-width: 1200px) {
+  /* line 23, sass/document/_helpers.scss */
+  .hide-lg {
+    display: none !important; } }
+
+/* line 28, sass/document/_helpers.scss */
+.show-xs, .show-sm, .show-md, .show-lg {
+  display: none !important; }
+
+@media (min-width: 600px) {
+  /* line 29, sass/document/_helpers.scss */
+  .show-xs {
+    display: block !important; } }
+
+@media (min-width: 768px) {
+  /* line 34, sass/document/_helpers.scss */
+  .show-sm {
+    display: block !important; } }
+
+@media (min-width: 960px) {
+  /* line 39, sass/document/_helpers.scss */
+  .show-md {
+    display: block !important; } }
+
+@media (min-width: 1200px) {
+  /* line 44, sass/document/_helpers.scss */
+  .show-lg {
+    display: block !important; } }
+
+/* line 52, sass/document/_helpers.scss */
 .width25 {
   width: 25%; }
 
-/* line 11, sass/document/_helpers.scss */
+/* line 53, sass/document/_helpers.scss */
 .width33 {
   width: 33%; }
 
-/* line 12, sass/document/_helpers.scss */
+/* line 54, sass/document/_helpers.scss */
 .width50 {
   width: 50%; }
 
-/* line 13, sass/document/_helpers.scss */
+/* line 55, sass/document/_helpers.scss */
 .width66 {
   width: 66%; }
 
-/* line 14, sass/document/_helpers.scss */
+/* line 56, sass/document/_helpers.scss */
 .width75 {
   width: 75%; }
 
-/* line 16, sass/document/_helpers.scss */
+/* line 58, sass/document/_helpers.scss */
 .center-block {
   display: block;
   max-width: 1200px;
@@ -896,23 +940,23 @@ big,
   .center-block:after {
     clear: both; }
 
-/* line 21, sass/document/_helpers.scss */
+/* line 63, sass/document/_helpers.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em; }
 
-/* line 27, sass/document/_helpers.scss */
+/* line 69, sass/document/_helpers.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em; }
 
-/* line 33, sass/document/_helpers.scss */
+/* line 75, sass/document/_helpers.scss */
 .pull-right {
   float: right; }
 
-/* line 34, sass/document/_helpers.scss */
+/* line 76, sass/document/_helpers.scss */
 .pull-left {
   float: left; }
 
@@ -924,13 +968,13 @@ big,
 .clearfix:after {
   clear: both; }
 
-/* line 42, sass/document/_helpers.scss */
+/* line 84, sass/document/_helpers.scss */
 .list-unstyled {
   padding-left: 0;
   margin-left: 0;
   list-style: none; }
 
-/* line 50, sass/document/_helpers.scss */
+/* line 92, sass/document/_helpers.scss */
 a.no-decoration {
   text-decoration: none; }
 
