@@ -98,6 +98,7 @@ function obsub_scripts() {
 
 	wp_enqueue_style( 'obsub-style', get_template_directory_uri() . "/style{$postfix}.css" );
 
+	wp_enqueue_script( 'modernizr', get_template_directory_uri() . "/js/modernizr.min.js", array(), '', false );
 	wp_enqueue_script( 'core', get_template_directory_uri() . "/js/core{$postfix}.js", array('jquery'), '', true );
 
 	// if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
