@@ -250,6 +250,17 @@ hr {
   margin: 2em 0;
   width: 100%; }
 
+/* line 19, sass/document/elements/_elements.scss */
+::-moz-selection {
+  /* Code for Firefox */
+  background: lightblue; }
+
+/* line 23, sass/document/elements/_elements.scss */
+::-moz-selection {
+  background: lightblue; }
+::selection {
+  background: lightblue; }
+
 /* line 1, sass/document/elements/_lists.scss */
 ul, ol {
   margin: 0 0 1.5em; }
@@ -472,7 +483,7 @@ input[type="number"],
 textarea {
   display: block;
   width: 100%;
-  color: #666;
+  color: #404040;
   border: 1px solid #ccc;
   border-radius: 3px;
   box-sizing: border-box; }
