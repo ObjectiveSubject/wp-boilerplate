@@ -10,7 +10,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<h2>H2. Nulla eleifend tortor vitae lorem accumsan</h1>
+		<h2>H2. Nulla eleifend tortor vitae lorem accumsan</h2>
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Morbi justo lorem</a>, congue eu ipsum eu, feugiat ornare ex. Nulla eleifend tortor vitae lorem accumsan, ac pellentesque elit pretium. Mauris ac ipsum eros. Suspendisse dolor mi, viverra sit amet diam in, convallis tempus ex. Ut cursus mi vel lacus facilisis suscipit. Curabitur facilisis turpis in augue finibus, eu congue magna condimentum.</p>
 
