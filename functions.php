@@ -1,8 +1,8 @@
 <?php
 /**
- * ObSub functions and definitions
+ * obsub functions and definitions
  *
- * @package ObSub
+ * @package obsub
  */
 
 /**
@@ -25,7 +25,7 @@ function obsub_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on ObSub, use a find and replace
+	 * If you're building a theme based on obsub, use a find and replace
 	 * to change 'obsub' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'obsub', get_template_directory() . '/languages' );
@@ -189,7 +189,3 @@ require get_template_directory() . '/functions/post-types.php';
 --------------------------------------------------*/
 require get_template_directory() . '/functions/taxonomies.php';
 
-
-/** Load Jetpack compatibility file.
---------------------------------------------------*/
-require get_template_directory() . '/functions/jetpack.php';

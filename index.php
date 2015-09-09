@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package ObSub
+ * @package obsub
  */
 
 get_header(); ?>
@@ -22,8 +22,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php
-					//get_template_part( 'content', get_post_format() );
-					get_template_part( 'content', 'default' );
+					get_template_part( 'content', get_post_format() );
 				?>
 
 			<?php endwhile; ?>

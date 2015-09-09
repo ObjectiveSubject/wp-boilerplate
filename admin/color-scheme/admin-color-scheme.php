@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Obsub Admin Color Scheme
+ * Plugin Name: obsub Admin Color Scheme
  * Description: A custom admin color scheme generated with <a href="http://themergency.com/generators/admin-color-scheme-generator" target="_blank">Admin Color Scheme Generator</a>
  * Author: Objective Subject
  * Version: 1.0

@@ -2,7 +2,7 @@
 /**
  * The template for displaying search results pages.
  *
- * @package ObSub
+ * @package obsub
  */
 
 get_header(); ?>

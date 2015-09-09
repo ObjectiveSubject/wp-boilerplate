@@ -1,6 +1,6 @@
 <?php
 /**
- * @package ObSub
+ * @package obsub
  */
 ?>
 
