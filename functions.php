@@ -177,15 +177,15 @@ add_filter( 'login_headertitle', 'login_logo_url_title' );
 
 /** Custom template tags for this theme.
 --------------------------------------------------*/
-require get_template_directory() . '/functions/template-tags.php';
+require get_template_directory() . '/includes/template-tags.php';
 
 
 /** Custom Post Types
 --------------------------------------------------*/
-require get_template_directory() . '/functions/post-types.php';
+require get_template_directory() . '/includes/post-types.php';
 
 
 /** Custom Taxonomies
 --------------------------------------------------*/
-require get_template_directory() . '/functions/taxonomies.php';
+require get_template_directory() . '/includes/taxonomies.php';
 

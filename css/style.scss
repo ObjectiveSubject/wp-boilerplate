@@ -16,10 +16,17 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
+/* Vendor
+----------------------------------------------- */
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+
 /* Base
 ----------------------------------------------- */
 @import "base/variables";
 @import "base/mixins";
+@import "base/normalize";
 @import "base/global";
 @import "base/typography";
 @import "base/helpers";
@@ -27,22 +34,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 /* Layout
 ----------------------------------------------- */
+@import "layout/document";
 @import "layout/header";
 @import "layout/post";
 @import "layout/footer";
 
 
-/* Modules
+/* Components
 ----------------------------------------------- */
-@import "modules/asides";
-@import "modules/buttons";
-@import "modules/comments";
-@import "modules/forms";
-@import "modules/media";
-@import "modules/navigation";
-@import "modules/widgets";
-
-
-/* Vendor
------------------------------------------------ */
-// none
+@import "components/asides";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/media";
+@import "components/navigation";
+@import "components/widgets";

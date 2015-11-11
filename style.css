@@ -15,6 +15,16 @@ and Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+/* Vendor
+----------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
 /* Base
 ----------------------------------------------- */
 /* Normalize
@@ -265,7 +275,7 @@ a {
   transition: all 250ms ease;
 }
 a:visited {
-  color: tint(#0071BC, 10%);
+  color: #1a7fc3;
 }
 a:hover, a:focus, a:active {
   color: #005289;
@@ -882,7 +892,7 @@ a.no-decoration {
   margin: 0 0 1.5em;
 }
 
-/* Modules
+/* Components
 ----------------------------------------------- */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
@@ -1132,6 +1142,3 @@ img {
 .widget_search .search-submit {
   display: none;
 }
-
-/* Vendor
------------------------------------------------ */
