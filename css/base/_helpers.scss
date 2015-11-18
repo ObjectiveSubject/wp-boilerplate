@@ -5,11 +5,6 @@
 .inline { display: inline; }
 .inline-block { display: inline-block; }
 
-.hide-xs {
-	@media (min-width: $screen-xs) {
-		display: none !important;
-	}
-}
 .hide-sm {
 	@media (min-width: $screen-sm) {
 		display: none !important;
@@ -25,12 +20,12 @@
 		display: none !important;
 	}
 }
-.show-xs, .show-sm, .show-md, .show-lg { display: none !important; }
-.show-xs {
-	@media (min-width: $screen-xs) {
-		display: block !important;
+.hide-xl {
+	@media (min-width: $screen-xl) {
+		display: none !important;
 	}
 }
+.show-xl, .show-sm, .show-md, .show-lg { display: none !important; }
 .show-sm {
 	@media (min-width: $screen-sm) {
 		display: block !important;
@@ -46,18 +41,16 @@
 		display: block !important;
 	}
 }
+.show-xl {
+	@media (min-width: $screen-xl) {
+		display: block !important;
+	}
+}
 
 // Layout
 // ======================================= /
-.width25 { width: 25%; }
-.width33 { width: 33%; }
-.width50 { width: 50%; }
-.width66 { width: 66%; }
-.width75 { width: 75%; }
-
-.center-block {
-  @include container;
-  @include clearfix;
+.outer-container {
+  @include outer-container;
 }
 
 .alignleft {

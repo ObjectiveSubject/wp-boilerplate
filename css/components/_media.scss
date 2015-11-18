@@ -32,7 +32,7 @@ img {
 	max-width: 100%;
 
 	img[class*="wp-image-"] {
-		@include container;
+		@include outer-container;
 	}
 
 	.wp-caption-text {

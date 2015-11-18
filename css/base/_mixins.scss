@@ -2,15 +2,6 @@
 // Layout
 // ============================================ /
 
-// Container
-@mixin container($maxWidth: $size_container_width) {
-	display: block;
-	max-width: $maxWidth;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 $size_container_padding;
-}
-
 // Clearfix
 @mixin clearfix {
 	&:before,
@@ -25,12 +16,6 @@
 
 // Typography
 // ============================================ /
-
-// Rem output with px fallback
-@mixin font-size($sizeValue: 1) {
-	font-size: ($sizeValue * 18) + px;
-	//font-size: $sizeValue + rem;
-}
 
 @mixin h1 {
 	font-size: $h1_size;

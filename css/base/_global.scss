@@ -244,7 +244,7 @@ table {
   overflow-x: auto;
   min-height: 0.01%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
 
-  @media screen and (max-width: $screen-xs) {
+  @media screen and (max-width: $screen-sm) {
     width: 100%;
     margin-bottom: 1em;
     overflow-y: hidden;
@@ -324,7 +324,7 @@ table {
 		clip: auto !important;
 		color: #21759b;
 		display: block;
-		@include font-size(0.875);
+		font-size: rem(0.875);
 		font-weight: bold;
 		height: auto;
 		left: 5px;

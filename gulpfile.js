@@ -22,11 +22,11 @@ gulp.task('styles', function() {
 });
 
 // Admin Login Styles
-gulp.task('login-styles', function() {
-	return sass('admin/login/admin-login.scss', { style: 'expanded' })
+gulp.task('admin-styles', function() {
+	return sass('admin/**/*.scss', { style: 'expanded' })
 		.pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
 		.pipe(minifycss())
-		.pipe(gulp.dest('admin/login/'))
+		.pipe(gulp.dest('admin'))
 		.pipe(notify({ message: 'Admin Styles task complete' }));
 });
 
@@ -55,6 +55,6 @@ gulp.task('watch', function() {
   gulp.watch('css/**/*.scss', ['styles']);
 
   // Watch .js files
-  gulp.watch('js/core.js', ['scripts']);
+  gulp.watch('js/src/*.js', ['scripts']);
 
 });
