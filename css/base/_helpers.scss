@@ -50,7 +50,11 @@
 // Layout
 // ======================================= /
 .outer-container {
-  @include outer-container;
+	@include outer-container;
+	&.bleed {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 .alignleft {
@@ -83,3 +87,36 @@
 // Style
 // ======================================= /
 a.no-decoration { text-decoration: none; }
+
+.media-size  {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: rgba(white, 0.25);
+	padding: 5px;
+	color: #bbb;
+	font-size: 12px;
+	&:before {
+		content: "default";
+	}
+	@include media($screen_sm) {
+		&:before {
+			content: "small";
+		}
+	}
+	@include media($screen_md) {
+		&:before {
+			content: "medium";
+		}
+	}
+	@include media($screen_lg) {
+		&:before {
+			content: "large";
+		}
+	}
+	@include media($screen_xl) {
+		&:before {
+			content: "xlarge";
+		}
+	}
+}
