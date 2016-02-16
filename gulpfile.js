@@ -1,6 +1,5 @@
 var gulp 		 = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer'),
-	cache 		 = require('gulp-cache'),
 	concat 		 = require('gulp-concat'),
 	jshint 		 = require('gulp-jshint'),
 	minifycss 	 = require('gulp-minify-css'),
