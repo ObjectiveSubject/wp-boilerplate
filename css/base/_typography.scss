@@ -19,14 +19,6 @@ textarea {
 	//-moz-osx-font-smoothing: grayscale;
 }
 
-hr {
-	background-color: $color_background_hr;
-	border: 0;
-	height: 2px;
-	margin: 2em 0;
-	width: 100%;
-}
-
 /* Headings
  * ------------------------------------------ */
 h1, h2, h3, h4, h5, h6,
@@ -39,30 +31,16 @@ h1, .h1 {
 	font-size: rem(34);
 	line-height: rem(32);
 	margin-top: $leading;
-	@include media($screen-lg) {
-		font-size: rem(64);
-		line-height: rem(56.5);
-		margin-top: $leading * 2;
-	}
 }
 h2, .h2 {
 	font-size: rem(30);
 	line-height: rem(32);
 	margin-top: $leading;
-	@include media($screen-lg) {
-		font-size: rem(50);
-		line-height: rem(56);
-		margin-top: $leading * 2;
-	}
 }
 h3, .h3 {
 	font-size: rem(20);
 	line-height: rem(28);
 	font-family: $font_main;
-    @include media($screen-lg) {
-    	font-size: rem(26);
-    	line-height: rem(32);
-    }
 }
 h4, .h4 {
 	font-size: rem(14);
@@ -163,6 +141,14 @@ abbr, acronym {
 mark, ins {
 	background: #fff9c0;
 	text-decoration: none;
+}
+
+hr {
+	background-color: $color_background_hr;
+	border: 0;
+	height: 2px;
+	margin: 2em 0;
+	width: 100%;
 }
 
 small,
