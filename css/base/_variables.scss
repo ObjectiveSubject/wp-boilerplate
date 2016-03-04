@@ -1,6 +1,6 @@
 // Structure
 // ============================================ /
-$max-width: rem(1200) !global;
+$max-width: rem(1000) !global;
 
 $container_padding: 20px;
 
@@ -33,6 +33,7 @@ $color_border_button_hover: #ccc #bbb #aaa;
 $color_border_button_focus: #aaa #bbb #bbb;
 
 $color_background_selection: lightblue;
+$color_selection_text: $color_text_main;
 
 $color_border_input: #ccc;
 $color_border_input_hover: #ccc;
@@ -41,6 +42,8 @@ $color_border_input_focus: #ccc;
 $color_text_input: #666;
 $color_text_input_hover: #111;
 $color_text_input_focus: #111;
+
+$color_text_muted: #aaa;
 
 
 // Typography
@@ -51,15 +54,6 @@ $font_code: "Menlo", monospace;
 $font_pre: "Menlo", monospace;
 $leading: 1.5rem;
 $font_line_height_pre: 1.6rem;
-
-$h1_size: 3.5em;  $h1_line_height: 1.1em;
-$h2_size: 2.5em;  $h2_line_height: 1.2em;
-$h3_size: 1.5em;  $h3_line_height: 1.3em;
-$h4_size: 1.2em;  $h4_line_height: 1.4em;
-$h5_size: 1em;  $h5_line_height: 1.4em;
-$h6_size: 1em;  $h6_line_height: 1.4em;
-
-$color_text_muted: #aaa;
 
 
 // Tables

@@ -1,9 +1,9 @@
 
-/* Forms 
+/* Forms
  * ------------------------------------------- */
 
 form {
-  margin: 0 0 1.5em;
+  margin: $leading 0 0;
 }
 
 input[type="text"],
@@ -12,6 +12,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 input[type="number"],
+input[type="tel"],
 textarea {
 	display: block;
 	width: 100%;
@@ -19,33 +20,19 @@ textarea {
 	border: 1px solid $color_border_input;
 	border-radius: 3px;
 	box-sizing: border-box;
+    padding: 0.5em;
 
 	&.inline {
 		display: inline;
 		width: auto;
 	}
-}
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-textarea:focus {
-	color: $color_text_input_focus;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-	padding: 3px;
-}
-
-textarea {
-	padding-left: 3px;
-	width: 100%;
+    &:hover {
+        color: $color_text_input_hover;
+    }
+    &:focus {
+    	color: $color_text_input_focus;
+    }
 }
 
 label {
@@ -57,8 +44,4 @@ label {
 		width: auto;
 		padding-bottom: 0;
 	}
-}
-
-.field-container {
-	margin-bottom: 0.75em;
 }

@@ -23,37 +23,31 @@ textarea {
  * ------------------------------------------ */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	line-height: $leading;
+	line-height: 1.5em;
 	margin-top: $leading;
 	margin-bottom: 0;
 }
 h1, .h1 {
 	font-size: rem(34);
-	line-height: rem(32);
-	margin-top: $leading;
+	line-height: 1.2em;
 }
 h2, .h2 {
 	font-size: rem(30);
-	line-height: rem(32);
-	margin-top: $leading;
+	line-height: 1.2em;
 }
 h3, .h3 {
 	font-size: rem(20);
-	line-height: rem(28);
-	font-family: $font_main;
+	line-height: 1.3em;
 }
 h4, .h4 {
 	font-size: rem(14);
-	line-height: rem(22);
-	font-family: $font_heading;
+	line-height: 1.4em;
 }
 h5, .h5 {
 	font-size: 1rem;
-	line-height: $leading;
 }
 h6, .h6 {
 	font-size: 1rem;
-	line-height: $leading;
 }
 
 /* Copy

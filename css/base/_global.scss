@@ -13,11 +13,11 @@ html {
 }
 
 ::-moz-selection { /* Code for Firefox */
-    // color: $color_selection_text;
+    color: $color_selection_text;
     background: $color_background_selection;
 }
 ::selection {
-    // color: $color_selection_text;
+    color: $color_selection_text;
     background: $color_background_selection;
 }
 
@@ -215,7 +215,7 @@ table {
   overflow-x: auto;
   min-height: 0.01%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
 
-  @media screen and (max-width: $screen-sm) {
+  @media screen and (max-width: $sm) {
     width: 100%;
     margin-bottom: 1em;
     overflow-y: hidden;
@@ -276,7 +276,7 @@ table {
   }
 }
 
-/* Text meant only for screen readers. 
+/* Text meant only for screen readers.
  * ------------------------------------------------- */
 
 .screen-reader-text {

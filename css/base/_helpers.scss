@@ -5,52 +5,11 @@
 .inline { display: inline; }
 .inline-block { display: inline-block; }
 
-.hide-sm {
-	@media (min-width: $screen-sm) {
-		display: none !important;
-	}
-}
-.hide-md {
-	@media (min-width: $screen-md) {
-		display: none !important;
-	}
-}
-.hide-lg {
-	@media (min-width: $screen-lg) {
-		display: none !important;
-	}
-}
-.hide-xl {
-	@media (min-width: $screen-xl) {
-		display: none !important;
-	}
-}
-.show-xl, .show-sm, .show-md, .show-lg { display: none !important; }
-.show-sm {
-	@media (min-width: $screen-sm) {
-		display: block !important;
-	}
-}
-.show-md {
-	@media (min-width: $screen-md) {
-		display: block !important;
-	}
-}
-.show-lg {
-	@media (min-width: $screen-lg) {
-		display: block !important;
-	}
-}
-.show-xl {
-	@media (min-width: $screen-xl) {
-		display: block !important;
-	}
-}
-
 // Layout
 // ======================================= /
 .outer-container {
 	@include outer-container;
+	padding: 0 $container_padding;
 	&.bleed {
 		padding-left: 0;
 		padding-right: 0;
@@ -99,22 +58,22 @@ a.no-decoration { text-decoration: none; }
 	&:before {
 		content: "default";
 	}
-	@include media($screen_sm) {
+	@include media($sm) {
 		&:before {
 			content: "small";
 		}
 	}
-	@include media($screen_md) {
+	@include media($md) {
 		&:before {
 			content: "medium";
 		}
 	}
-	@include media($screen_lg) {
+	@include media($lg) {
 		&:before {
 			content: "large";
 		}
 	}
-	@include media($screen_xl) {
+	@include media($xl) {
 		&:before {
 			content: "xlarge";
 		}
