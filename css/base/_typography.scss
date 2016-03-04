@@ -2,6 +2,10 @@
 /* Typography
  * ------------------------------------------ */
 
+html {
+	font-size: 100%;
+}
+
 body,
 button,
 input,
@@ -9,7 +13,7 @@ select,
 textarea {
 	color: $color_text_main;
 	font-family: $font_main;
-	font-size: rem(1);
+	font-size: rem(16);
 	line-height: $leading;
 	//-webkit-font-smoothing: antialiased;
 	//-moz-osx-font-smoothing: grayscale;
@@ -186,4 +190,3 @@ big,
 .push-double {
 	margin-top: $leading * 2;
 }
-
