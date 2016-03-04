@@ -481,14 +481,18 @@ table th[class*="col-"] {
 
 /* Typography
  * ------------------------------------------ */
+html {
+  font-size: 100%;
+}
+
 body,
 button,
 input,
 select,
 textarea {
   color: #404040;
-  font-family: "Arnhem Pro", "Georgia", sans-serif;
-  font-size: 0.0625rem;
+  font-family: "Arnhem Pro", "Georgia", serif;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 
@@ -538,7 +542,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
-  font-family: "Arnhem Pro", "Georgia", sans-serif;
+  font-family: "Arnhem Pro", "Georgia", serif;
 }
 @media screen and (min-width: 960px) {
   h3, .h3 {
@@ -623,7 +627,7 @@ address {
 pre {
   background: #eee;
   font-family: "Menlo", monospace;
-  font-size: 0.0625rem;
+  font-size: 1rem;
   line-height: 1.6rem;
   margin-bottom: 1.6em;
   max-width: 100%;
